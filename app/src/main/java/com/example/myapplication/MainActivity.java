@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void funButton(View v){
-        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT);
+        Log.d("msg", "hi");
+        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show();
     }
 
 }
